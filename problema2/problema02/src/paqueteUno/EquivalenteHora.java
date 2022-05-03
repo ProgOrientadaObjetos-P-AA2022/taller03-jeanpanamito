@@ -18,6 +18,8 @@ public class EquivalenteHora {
     private double dias;
     
     
+   
+   
     public void establecerCantidadHoras(double c){
         cantidadHoras = c;
     }
@@ -51,6 +53,6 @@ public class EquivalenteHora {
         return dias;
     }
     
-    
+   
     
 }

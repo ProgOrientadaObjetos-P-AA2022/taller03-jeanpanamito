@@ -25,7 +25,7 @@ public class ejecutor {
         ft2.establecerMinutos();
         ft2.establecerDias();
         ft2.establecerSegundos();
-        
+       
         
         int cantidadHoras = 40;
         
@@ -36,9 +36,10 @@ public class ejecutor {
         
        
          System.out.println("-------------------------");
-        System.out.println("Conversion de horas (objeto 1) ");
+        System.out.println("Conversion de horas (objeto 1)");
         System.out.printf("Horas: %.2f\n"
-                + "Dias: %.2f\n Minutos: %.2f\n"
+                + "Dias: %.2f\n"
+                + "Minutos: %.2f\n"
                 + "Segundos: %.2f\n", ft.obtenerCantidadHoras(),
                 ft.obtenerDias(), ft.obtenerMinutos(),
                 ft.obtenerSegundos());
@@ -46,13 +47,13 @@ public class ejecutor {
         
         
         System.out.println("-------------------------");
-        System.out.println("Conversion de horas (objeto 2) ");
+        System.out.println("Conversion de horas (objeto 1)");
         System.out.printf("Horas: %.2f\n"
-                + "Dias: %.2f\n Minutos: %.2f\n"
+                + "Dias: %.2f\n"
+                + "Minutos: %.2f\n"
                 + "Segundos: %.2f\n", ft2.obtenerCantidadHoras(),
                 ft2.obtenerDias(), ft2.obtenerMinutos(),
-                ft2.obtenerSegundos());
-        
+                ft2.obtenerSegundos());        
         
     }  
 }
